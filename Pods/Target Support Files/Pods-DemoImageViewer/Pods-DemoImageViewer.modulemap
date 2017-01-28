@@ -1,0 +1,6 @@
+framework module Pods_DemoImageViewer {
+  umbrella header "Pods-DemoImageViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}

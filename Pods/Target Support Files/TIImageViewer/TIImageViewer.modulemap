@@ -1,0 +1,6 @@
+framework module TIImageViewer {
+  umbrella header "TIImageViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}
