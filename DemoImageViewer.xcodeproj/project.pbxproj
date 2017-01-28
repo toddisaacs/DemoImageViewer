@@ -354,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9CD2EE290DCA5469C9C8440 /* Pods-DemoImageViewer.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9C759Q4CFH;
 				INFOPLIST_FILE = DemoImageViewer/Info.plist;
@@ -368,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6238318720EC6CBFAFD302C8 /* Pods-DemoImageViewer.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9C759Q4CFH;
 				INFOPLIST_FILE = DemoImageViewer/Info.plist;
