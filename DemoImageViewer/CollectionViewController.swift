@@ -13,9 +13,9 @@ class CollectionViewController: UICollectionViewController {
   
   @IBAction func buttonTaped(_ sender: UIButton) {
     //ImageViewer.show(fromController: self, image: photos[0] , fullScreen: true)
-    let imageViewer = ImageViewer.show(from: self, images: photos, startIndex: 3, fullScreen: true, spacing: 8)
+    //let imageViewer = ImageViewer.show(from: self, images: photos, startIndex: 3, fullScreen: true, spacing: 8)
     
-    imageViewer.view.backgroundColor = UIColor.white
+    //imageViewer.view.backgroundColor = UIColor.white
   }
   
   fileprivate let reuseIdentifier = "PhotoCell"
@@ -52,11 +52,8 @@ extension CollectionViewController {
   
   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     print("Select Item: \(indexPath.row)")
-    //ImageViewer.show(fromController: self, image: photos[indexPath.row], fullScreen: true)
     
-    let imageViewer = ImageViewer.show(from: self, images: photos, startIndex: 3, fullScreen: true, spacing: 8)
-    
-    imageViewer.view.backgroundColor = UIColor.white
+    _ = ImageViewer.show(from: self, images: photos, startIndex: indexPath.row, fullScreen: true, toolBarMessage: "From DemoImageViewer", spacing: 8)
   }
 }
 

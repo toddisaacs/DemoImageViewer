@@ -2,21 +2,21 @@ PODS:
   - TIImageViewer (1.0.0)
 
 DEPENDENCIES:
-  - TIImageViewer (from `https://github.com/toddisaacs/TIImageViewer.git`, tag `1.0.0`)
+  - TIImageViewer (from `https://github.com/toddisaacs/TIImageViewer.git`, tag `v1.1.0`)
 
 EXTERNAL SOURCES:
   TIImageViewer:
     :git: https://github.com/toddisaacs/TIImageViewer.git
-    :tag: 1.0.0
+    :tag: v1.1.0
 
 CHECKOUT OPTIONS:
   TIImageViewer:
     :git: https://github.com/toddisaacs/TIImageViewer.git
-    :tag: 1.0.0
+    :tag: v1.1.0
 
 SPEC CHECKSUMS:
   TIImageViewer: 70f5769e55fbf5c42e2febf0ed062d6315d9111e
 
-PODFILE CHECKSUM: 4b99d35ec401c07c3697553f89d7970b7538fa7f
+PODFILE CHECKSUM: 23025689f41f464fb13d0ed43967d86cb76dd848
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0
