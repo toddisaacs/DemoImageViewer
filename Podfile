@@ -4,8 +4,8 @@ target 'DemoImageViewer' do
 
  platform :ios, '12.1'
 
- #pod 'TIImageViewer', :git => 'https://github.com/toddisaacs/TIImageViewer.git', :tag => 'v1.2.0'
-  pod 'TIImageViewer', :path => '/Users/toddisaacs/ios/TIImageViewer'
+ pod 'TIImageViewer', :git => 'https://github.com/toddisaacs/TIImageViewer.git', :tag => 'v1.2.1'
+ #pod 'TIImageViewer', :path => '/Users/toddisaacs/ios/TIImageViewer'
   
   post_install do |installer|
     installer.pods_project.targets.each do |target|

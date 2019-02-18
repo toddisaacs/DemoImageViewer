@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0DB254CF2C8091319EF63C4AB55E9E7E /* Pods-DemoImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 852378B737224B857F09668E5BB7E737 /* Pods-DemoImageViewer-dummy.m */; };
-		1D08FAD3E4B7B70064563EE74147AC54 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B00511A96FFD1361A52C0A22D50E79B /* ImageViewController.swift */; };
+		1D08FAD3E4B7B70064563EE74147AC54 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21EC05574F415C7E4E782ED27098832 /* ImageViewController.swift */; };
 		4405AB4C4BD706D328309F4DBC3BA3EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5923E5E42068190048C38D1C74D77450 /* TIImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 559F6D85E9FAC2D69B1A9702E1407889 /* TIImageViewer-dummy.m */; };
-		6C3B948CBB846661DEC13CCCAEE5059C /* TIImageViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6B129AB687C20D1B8DBD3DFF3294D7 /* TIImageViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5923E5E42068190048C38D1C74D77450 /* TIImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FF1DEF2C916B04E62C607D37B82FA8 /* TIImageViewer-dummy.m */; };
+		6C3B948CBB846661DEC13CCCAEE5059C /* TIImageViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = F86C9B082E95E6AF1358E4F65AC00886 /* TIImageViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CD75A6F9A3129394E3B6AAC51C08270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B2D57B372E8D3E61D637EB5823C45612 /* TIImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32394DF27DD85DD4CA0F1A93F6A65C87 /* TIImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2D57B372E8D3E61D637EB5823C45612 /* TIImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53CB1DF82F14DE0A4C83DDF42E22884A /* TIImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEAF69A2D3179F77E35B4D1D0B084720 /* Pods-DemoImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B47AA9BD86453263D9EE2CAC2E97B4 /* Pods-DemoImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6B0DCDD68A7A84241CEBA3D3C31FA52 /* ImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F9F45DC1CAB1CD8108AE5F7CE6341C /* ImageViewer.swift */; };
+		F6B0DCDD68A7A84241CEBA3D3C31FA52 /* ImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEADA0B1C6006B3A46C46FF5EE62C0E4 /* ImageViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,31 +30,28 @@
 
 /* Begin PBXFileReference section */
 		0182D3C880954AD855A8516EE23B063D /* Pods-DemoImageViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DemoImageViewer.modulemap"; sourceTree = "<group>"; };
-		079B097A32EDAE5B310879883361CCEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		17F9F45DC1CAB1CD8108AE5F7CE6341C /* ImageViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageViewer.swift; path = TIImageViewer/ImageViewer.swift; sourceTree = "<group>"; };
 		18CE75FFF8DF0DAD963141E865848E4B /* Pods-DemoImageViewer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoImageViewer-resources.sh"; sourceTree = "<group>"; };
-		32394DF27DD85DD4CA0F1A93F6A65C87 /* TIImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIImageViewer-umbrella.h"; sourceTree = "<group>"; };
+		1AA03CCDC61543B27D1AC4F9A18F3295 /* TIImageViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIImageViewer-prefix.pch"; sourceTree = "<group>"; };
+		33A8857EF0ABB9CC8BFB5056E83052D1 /* TIImageViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TIImageViewer.modulemap; sourceTree = "<group>"; };
 		35CDAF91DA221A090AD82A14F52DA968 /* TIImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TIImageViewer.framework; path = TIImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		462152B1FAE5C36E739EE0AA33CDC1E6 /* TIImageViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIImageViewer-prefix.pch"; sourceTree = "<group>"; };
-		559F6D85E9FAC2D69B1A9702E1407889 /* TIImageViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TIImageViewer-dummy.m"; sourceTree = "<group>"; };
+		53CB1DF82F14DE0A4C83DDF42E22884A /* TIImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIImageViewer-umbrella.h"; sourceTree = "<group>"; };
+		56908FDE2167970BDA585E60E57390DE /* TIImageViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIImageViewer.xcconfig; sourceTree = "<group>"; };
 		57EF8CCC132AFA70A8FC6AB5DD80DC39 /* Pods-DemoImageViewer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoImageViewer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		587DD2A31DAA821530DE95AB7043E8DD /* TIImageViewer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TIImageViewer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		58ACDC6EED44876C10E08C2F97A371B3 /* Pods-DemoImageViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoImageViewer.release.xcconfig"; sourceTree = "<group>"; };
-		5915C6643856084D684AF84FB00E199F /* TIImageViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIImageViewer.xcconfig; sourceTree = "<group>"; };
-		615E6DEAACD6E59B4C0506656794FA21 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		61FF1DEF2C916B04E62C607D37B82FA8 /* TIImageViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TIImageViewer-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68123C9C73A2E0C34C4902CE3FB6BA3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B96DD8123A0457964E700281B142258 /* TIImageViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TIImageViewer.modulemap; sourceTree = "<group>"; };
 		78B47AA9BD86453263D9EE2CAC2E97B4 /* Pods-DemoImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoImageViewer-umbrella.h"; sourceTree = "<group>"; };
 		852378B737224B857F09668E5BB7E737 /* Pods-DemoImageViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoImageViewer-dummy.m"; sourceTree = "<group>"; };
 		8B02BBB50E807ED81AEC5F6E52C123F0 /* Pods-DemoImageViewer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoImageViewer-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B00511A96FFD1361A52C0A22D50E79B /* ImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = TIImageViewer/ImageViewController.swift; sourceTree = "<group>"; };
+		9C2D40DE1466B07F5D59EF7A66A7E9BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A13135D2EFAECC38A790BDFCF57FE527 /* Pods-DemoImageViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoImageViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		AEADA0B1C6006B3A46C46FF5EE62C0E4 /* ImageViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageViewer.swift; path = TIImageViewer/ImageViewer.swift; sourceTree = "<group>"; };
+		B21EC05574F415C7E4E782ED27098832 /* ImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = TIImageViewer/ImageViewController.swift; sourceTree = "<group>"; };
 		C6140485D0BA84D918BD9AC99E49E53B /* Pods-DemoImageViewer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoImageViewer-frameworks.sh"; sourceTree = "<group>"; };
-		CF6B129AB687C20D1B8DBD3DFF3294D7 /* TIImageViewer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIImageViewer.h; path = TIImageViewer/TIImageViewer.h; sourceTree = "<group>"; };
 		EC5B31FAE1BCB43E9766D97E26921178 /* Pods_DemoImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoImageViewer.framework; path = "Pods-DemoImageViewer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDCC41BE75F9EAD766A5B6730514D14B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F86C9B082E95E6AF1358E4F65AC00886 /* TIImageViewer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIImageViewer.h; path = TIImageViewer/TIImageViewer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +74,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A96E8C74CC8AF00A13E36238506FBD0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C2D40DE1466B07F5D59EF7A66A7E9BA /* Info.plist */,
+				33A8857EF0ABB9CC8BFB5056E83052D1 /* TIImageViewer.modulemap */,
+				56908FDE2167970BDA585E60E57390DE /* TIImageViewer.xcconfig */,
+				61FF1DEF2C916B04E62C607D37B82FA8 /* TIImageViewer-dummy.m */,
+				1AA03CCDC61543B27D1AC4F9A18F3295 /* TIImageViewer-prefix.pch */,
+				53CB1DF82F14DE0A4C83DDF42E22884A /* TIImageViewer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TIImageViewer";
+			sourceTree = "<group>";
+		};
 		2EB68BC5C6DF65762247BE9E337505D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,25 +97,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3EF734263FDC3CACBED1094225652127 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				615E6DEAACD6E59B4C0506656794FA21 /* LICENSE.txt */,
-				079B097A32EDAE5B310879883361CCEA /* README.md */,
-				587DD2A31DAA821530DE95AB7043E8DD /* TIImageViewer.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E6AB638331D1CD70C60681791C61DB4E /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E4D37922721E94350C208AB2953AB5DF /* Pods */,
 				2EB68BC5C6DF65762247BE9E337505D5 /* Products */,
 				EADCC2F0254A8C570898C8667D4404DD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		B0FE70378D8086E9BBAC8238A928B594 /* TIImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				B21EC05574F415C7E4E782ED27098832 /* ImageViewController.swift */,
+				AEADA0B1C6006B3A46C46FF5EE62C0E4 /* ImageViewer.swift */,
+				F86C9B082E95E6AF1358E4F65AC00886 /* TIImageViewer.h */,
+				0A96E8C74CC8AF00A13E36238506FBD0 /* Support Files */,
+			);
+			name = TIImageViewer;
+			path = TIImageViewer;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -115,19 +128,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C99BC9D65DB2CF9CB7AD0D513E040549 /* TIImageViewer */ = {
-			isa = PBXGroup;
-			children = (
-				9B00511A96FFD1361A52C0A22D50E79B /* ImageViewController.swift */,
-				17F9F45DC1CAB1CD8108AE5F7CE6341C /* ImageViewer.swift */,
-				CF6B129AB687C20D1B8DBD3DFF3294D7 /* TIImageViewer.h */,
-				3EF734263FDC3CACBED1094225652127 /* Pod */,
-				E3BCD5F0EB694D7A2D563B2E68DCF2D1 /* Support Files */,
-			);
-			name = TIImageViewer;
-			path = /Users/toddisaacs/ios/TIImageViewer;
-			sourceTree = "<absolute>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,26 +136,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E3BCD5F0EB694D7A2D563B2E68DCF2D1 /* Support Files */ = {
+		E4D37922721E94350C208AB2953AB5DF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EDCC41BE75F9EAD766A5B6730514D14B /* Info.plist */,
-				6B96DD8123A0457964E700281B142258 /* TIImageViewer.modulemap */,
-				5915C6643856084D684AF84FB00E199F /* TIImageViewer.xcconfig */,
-				559F6D85E9FAC2D69B1A9702E1407889 /* TIImageViewer-dummy.m */,
-				462152B1FAE5C36E739EE0AA33CDC1E6 /* TIImageViewer-prefix.pch */,
-				32394DF27DD85DD4CA0F1A93F6A65C87 /* TIImageViewer-umbrella.h */,
+				B0FE70378D8086E9BBAC8238A928B594 /* TIImageViewer */,
 			);
-			name = "Support Files";
-			path = "../DemoImageViewer/Pods/Target Support Files/TIImageViewer";
-			sourceTree = "<group>";
-		};
-		E6AB638331D1CD70C60681791C61DB4E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C99BC9D65DB2CF9CB7AD0D513E040549 /* TIImageViewer */,
-			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		EADCC2F0254A8C570898C8667D4404DD /* Targets Support Files */ = {
@@ -302,7 +288,7 @@
 /* Begin XCBuildConfiguration section */
 		03EA7A0D3F7CDB84E553E35EFB3E8EB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5915C6643856084D684AF84FB00E199F /* TIImageViewer.xcconfig */;
+			baseConfigurationReference = 56908FDE2167970BDA585E60E57390DE /* TIImageViewer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -519,7 +505,7 @@
 		};
 		FCF4CEC5687AFEA5C42A7327A4BB4DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5915C6643856084D684AF84FB00E199F /* TIImageViewer.xcconfig */;
+			baseConfigurationReference = 56908FDE2167970BDA585E60E57390DE /* TIImageViewer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
